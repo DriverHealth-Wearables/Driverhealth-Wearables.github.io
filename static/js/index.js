@@ -1,39 +1,26 @@
-window.HELP_IMPROVE_VIDEOJS = false;
-
-
 $(document).ready(function() {
-    // Check for click events on the navbar burger icon
-
-    var options = {
-			slidesToScroll: 1,
-			slidesToShow: 1,
-			loop: true,
-			infinite: true,
-			autoplay: true,
-      pauseOnHover: true,
-			autoplaySpeed: 10600,
+    
+    // Initialize standard Bulma slider if present
+    if (typeof bulmaSlider !== 'undefined' && typeof bulmaSlider.attach === 'function') {
+        bulmaSlider.attach();
     }
 
-		// Initialize all div with carousel class
-    var carousels = bulmaCarousel.attach('.carousel', options);
+    // Interactive Tab Switcher for the Physiological Findings Showcase
+    $('.tabs li').on('click', function(e) {
+        e.preventDefault();
+        
+        // Remove active class from all tab navigation items
+        $('.tabs li').removeClass('is-active');
+        
+        // Add active class to the current clicked tab
+        $(this).addClass('is-active');
+        
+        // Hide all physiological analysis tab panels
+        $('.tab-content').addClass('is-hidden');
+        
+        // Retrieve target panel id and reveal it
+        var targetTab = $(this).data('tab');
+        $('#' + targetTab).removeClass('is-hidden');
+    });
 
-//     Loop on each carousel initialized
-//     for(var i = 0; i < carousels.length; i++) {
-//     	// Add listener to  event
-//     	carousels[i].on('before:show', state => {
-// //     		console.log(state);
-//     	});
-//     }
-
-    // Access to bulmaCarousel instance of an element
-//     var element = document.querySelector('#my-element');
-//     if (element && element.bulmaCarousel) {
-//     	// bulmaCarousel instance is available as element.bulmaCarousel
-//     	element.bulmaCarousel.on('before-show', function(state) {
-// //     		console.log(state);
-//     	});
-//     }
-
-    bulmaSlider.attach();
-
-})
+});

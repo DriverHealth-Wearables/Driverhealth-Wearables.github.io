@@ -4,28 +4,28 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-    content="Given a video and a text prompt, Dreamix edits the video while maintaining fidelity to color, posture, object size and camera pose, resulting in a temporally consistent video.">
-  <meta property="og:title" content="Dreamix: Video Diffusion Models are General Video Editors" />
+    content="Characterizing Stress and Fatigue in Long-Haul Truck Drivers through Wearable Sensing and Physiological Measures. A naturalistic study using the Empatica EmbracePlus smartwatch to monitor heart rate, HRV, EDA, skin temperature, and movement.">
+  <meta property="og:title" content="Characterizing Stress and Fatigue in Long-Haul Truck Drivers through Wearable Sensing and Physiological Measures" />
   <meta property="og:description"
-    content="Given a video and a text prompt, Dreamix edits the video while maintaining fidelity to color, posture, object size and camera pose, resulting in a temporally consistent video." />
-  <meta property="og:url" content="https://dreamix-video-editing.github.io" />
-  <meta property="og:image" content="static/image/og_banner_image.png" />
+    content="A naturalistic study using the Empatica EmbracePlus smartwatch to monitor heart rate, HRV, EDA, skin temperature, and movement in commercial truck drivers." />
+  <meta property="og:url" content="https://driverhealth-wearables.github.io" />
+  <meta property="og:image" content="static/images/flowdiagram.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
 
-
-  <meta name="twitter:title" content="Dreamix: Video Diffusion Models are General Video Editors">
+  <meta name="twitter:title" content="Characterizing Stress and Fatigue in Long-Haul Truck Drivers through Wearable Sensing">
   <meta name="twitter:description"
-    content="Given a video and a text prompt, Dreamix edits the video while maintaining fidelity to color, posture, object size and camera pose, resulting in a temporally consistent video.">
-  <meta name="twitter:image" content="static/images/twitter_banner_image.png">
+    content="Monitoring stress and fatigue in long-haul commercial truck drivers using research-grade wearables and daily self-reports.">
+  <meta name="twitter:image" content="static/images/flowdiagram.jpg">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="keywords" content="Video diffusion models, video editing, dreamix, dreambooth, imagen-video">
+  <meta name="keywords" content="Wearable sensing, Driver fatigue, Driver stress, Physiological measures, Electroderamal activity, Heart rate variability, Empatica EmbracePlus, VTTI, Intelligent Vehicles">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-  <title>This is Under Editing Now and simply copied from its source</title>
+  <title>Driver Stress & Fatigue Wearable Study - IEEE IV 2026</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  
+  <!-- Premium Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&family=Noto+Sans&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
@@ -35,7 +35,6 @@
   <link rel="stylesheet" href="static/css/index.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
   <script defer src="static/js/fontawesome.all.min.js"></script>
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
@@ -44,55 +43,51 @@
 
 <body>
 
-
-  <section class="hero">
+  <!-- Top Announcement Badge / Hero -->
+  <section class="hero is-bold">
     <div class="hero-body">
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Dreamix: Video Diffusion Models are General Video Editors</h1>
-            <div class="is-size-5 publication-authors">
-              <!-- Paper authors -->
+            
+            <!-- Venue Badge -->
+            <div class="publication-venue-badge mb-4">
+              <span class="tag is-success is-light is-medium">Accepted to <strong>IEEE Intelligent Vehicles Symposium (IV) 2026</strong></span>
+            </div>
+
+            <!-- Title -->
+            <h1 class="title is-1 publication-title primary-gradient-text">
+              Characterizing Stress and Fatigue in Long-Haul Truck Drivers through Wearable Sensing and Physiological Measures
+            </h1>
+
+            <!-- Authors Block -->
+            <div class="is-size-5 publication-authors mb-3">
               <span class="author-block">
-                Eyal Molad<sup>*,1</sup>,
+                <a href="mailto:sthapa@vtti.vt.edu">Surendrabikram Thapa</a><sup>1</sup>,
               </span>
               <span class="author-block">
-                <a href="https://horwitz.ai" target="_blank">Eliahu Horwitz</a><sup>*,1,2</sup>,
-              </span>
-              <span class="author-block">
-                <a href="https://www.linkedin.com/in/dani-valevski-a3b5936/" target="_blank">Dani
-                  Valevski</a><sup>*,1</sup>,
-              </span>
-              <span class="author-block">
-                <a href="https://www.linkedin.com/in/alexravacha" target="_blank">Alex Rav Acha</a><sup>1</sup>,
-              </span>
-              <span class="author-block">
-                Yossi Matias<sup>1</sup>,
-              </span>
-              <span class="author-block">
-                Yael Pritch<sup>1</sup>,
-              </span>
-              <span class="author-block">
-                <a href="https://yanivle.github.io/" target="_blank">Yaniv Leviathan</a><sup>†,1</sup>,
-              </span>
-              <span class="author-block">
-                <a href="http://www.cs.huji.ac.il/~ydidh" target="_blank">Yedid Hoshen</a><sup>†,1,2</sup>
+                <a href="mailto:asarkar@vtti.vt.edu">Abhijit Sarkar</a><sup>1,2</sup>
               </span>
             </div>
 
-            <div class="is-size-5 publication-authors">
-              <span class="author-block"><sup>1</sup>Google Research,</span>
-              <span class="author-block"><sup>2</sup>The Hebrew University of Jerusalem</span>
-              <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution, <sup>†</sup>Indicates Equal
-                  Advising</small></span>
-              <span class="eql-cntrb"><small></small></span>
+            <!-- Affiliations Block -->
+            <div class="is-size-6 publication-institutions mb-4">
+              <span class="author-block"><sup>1</sup> Virginia Tech Transportation Institute (VTTI), USA</span><br>
+              <span class="author-block"><sup>2</sup> Sanghani Center for AI and Data Analytics, USA</span>
             </div>
 
+            <!-- E-mails -->
+            <div class="is-size-6 email-block mb-5">
+              <code>{sthapa, asarkar}@vtti.vt.edu</code>
+            </div>
+
+            <!-- Publication Links -->
             <div class="column has-text-centered">
               <div class="publication-links">
-                <!-- Arxiv PDF link -->
+                
+                <!-- PDF Link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/pdf/2302.01329.pdf" target="_blank"
+                  <a href="#" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -101,11 +96,9 @@
                   </a>
                 </span>
 
-
-
-                <!-- ArXiv abstract Link -->
+                <!-- arXiv Link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/2302.01329" target="_blank"
+                  <a href="#" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -114,30 +107,44 @@
                   </a>
                 </span>
 
-                
-                <!-- IEEE IV 2026 GitHub page -->
+                <!-- VTTI Website Link -->
                 <span class="link-block">
-                  <a href="https://github.com/heesangh/D3VL-and-WaymoQA" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
+                  <a href="https://www.vtti.vt.edu/" target="_blank"
+                    class="external-link button is-normal is-rounded is-light">
                     <span class="icon">
-                      <i class="fas fa-square-github"></i>
+                      <i class="fas fa-house"></i>
                     </span>
-                    <span>Code</span>
+                    <span>VTTI Home</span>
                   </a>
                 </span>
 
-                
-                
-                <!--- KITTI QA HF page -->
-                                <!-- ArXiv abstract Link -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/2302.01329" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span>&#x1F917; HuggingFace</span>
-                  </a>
-                </span>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-
+  <!-- Abstract Card Section -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="card abstract-card">
+            <div class="card-content">
+              <h2 class="title is-3 accent-gradient-text mb-4">Abstract</h2>
+              <div class="content has-text-justified">
+                <p>
+                  Understanding driver stress and fatigue in long-haul trucking is critical for improving safety and well-being in a demanding work environment. This study presents findings from real-world usage of the <strong>Empatica EmbracePlus</strong>, a research-grade wearable capable of monitoring heart rate, HRV, EDA, skin temperature, and movement signals. 
+                </p>
+                <p>
+                  Ten professional drivers participated in a multi-day study and completed daily retrospective questionnaires capturing stress, visibility and weather conditions, traffic levels, sleep quality, and workload factors. Reported driving intervals were used to isolate physiological data associated with active driving. Our analysis shows clear distinctions between driving and non-driving states, including progressively elevated heart rates during driving and consistent positive heart-rate increase across morning and midday periods, suggesting increased cognitive demand. EDA also showed rising trends and occasional sharp spikes during extended driving, reflecting heightened arousal during high-demand moments. 
+                </p>
+                <p>
+                  Mixed-effects statistical models revealed that self-reported stress was strongly associated with traffic and visibility conditions, aligning with prior findings but adding evidence specific to long-haul commercial operations. Skin temperature showed inconsistent changes and did not emerge as a reliable stress marker, suggesting the influence of cabin conditions. These results show the feasibility of unobtrusive physiological monitoring in real-world trucking and focuses on the value of combining wearable-based signals with contextual self-reports. Insights from this study can inform future fatigue-detection technologies and support interventions aimed at improving driver health and safety.
+                </p>
               </div>
             </div>
           </div>
@@ -146,456 +153,414 @@
     </div>
   </section>
 
-
-
-
-
-
-
-
-  <!-- Subject Driven Video Generation carousel -->
-  <section class="hero teaser">
-    <div class="hero-body ">
-      <div class="container is-max-desktop">
-
-        <div id="results-carousel" class="carousel results-carousel">
-          <div class="item item-video1">
-            <video poster="" id="header-video1" autoplay muted loop playsinline height="100%"
-              src="static/videos/banner_video.mp4">
-            </video>
-            <h2 class="subtitle has-text-centered">
-              Given a video and a text prompt, Dreamix edits the video while maintaining fidelity to color, posture,
-              object size and camera pose, resulting in a temporally consistent video. Here, Dreamix turns the eating
-              monkey (left) to a dancing bear (right) given the prompt “A bear dancing and jumping to upbeat music,
-              moving his whole body“.
-            </h2>
+  <!-- Methodology & Study Design -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <h2 class="title is-2 mb-5">Methodology & Study Design</h2>
+      
+      <!-- Design Cards Grid -->
+      <div class="columns is-multiline">
+        <div class="column is-4">
+          <div class="card design-card">
+            <div class="card-content">
+              <div class="icon is-large primary-color-text">
+                <i class="fas fa-clock fa-2x"></i>
+              </div>
+              <h3 class="title is-5 mt-3 mb-2">Multi-Sensor Protocol</h3>
+              <p class="is-size-6">
+                Professional drivers wore the <strong>Empatica EmbracePlus</strong> smartwatch continuously on their non-dominant wrist throughout their assigned shifts, collecting heart rate, EDA, HRV, skin temperature, and accelerometry.
+              </p>
+            </div>
           </div>
-          <div class="item item-video2">
-            <video poster="" id="header-video2" autoplay muted loop playsinline height="100%"
-              src="static/videos/img2vid_turtle.mp4">
-            </video>
-            <h2 class="subtitle has-text-centered">
-              Dreamix can create videos based on image and text inputs. In this example it is able to instill complex
-              motion in a static image, adding a moving shark and making the turtle swim. In this case, visual fidelity
-              to object location and background was preserved but the turtle direction was flipped.
-            </h2>
+        </div>
+        <div class="column is-4">
+          <div class="card design-card">
+            <div class="card-content">
+              <div class="icon is-large primary-color-text">
+                <i class="fas fa-users fa-2x"></i>
+              </div>
+              <h3 class="title is-5 mt-3 mb-2">Participant Pool</h3>
+              <p class="is-size-6">
+                <strong>10 active commercial drivers</strong> (8 male, 2 female) aged 33 to 63 years (median: 50). Weight range was 170 to 360 lbs, representing standard commercial driver distributions.
+              </p>
+            </div>
           </div>
-          <div class="item item-video3">
-            <video poster="" id="header-video3" autoplay muted loop playsinline height="100%"
-              src="static/videos/subj_driv_lifting.mp4">
-            </video>
-            <h2 class="subtitle has-text-centered">
-              Given a small collection of images showing the same subject, Dreamix can generate new videos with the
-              subject in motion. In this example, given a small number of images of the toy fireman, Dreamix is able to
-              extract the visual features then animate it to lift weights while maintaining fidelity and temporal
-              consistency.
-            </h2>
+        </div>
+        <div class="column is-4">
+          <div class="card design-card">
+            <div class="card-content">
+              <div class="icon is-large primary-color-text">
+                <i class="fas fa-cloud-upload-alt fa-2x"></i>
+              </div>
+              <h3 class="title is-5 mt-3 mb-2">AWS cloud pipeline</h3>
+              <p class="is-size-6">
+                Data synced via companion smartphones to the Empatica AWS-based secure cloud platform, generating high-resolution <strong>Avro files</strong> that were parsed locally into CSV files for feature extraction.
+              </p>
+            </div>
           </div>
         </div>
       </div>
+
+      <!-- Flow Diagram Highlight Card -->
+      <div class="card overview-card mt-6">
+        <div class="card-content">
+          <h3 class="title is-4 mb-4">Data Acquisition Workflow</h3>
+          <div class="columns is-vcentered">
+            <div class="column is-7 has-text-centered">
+              <img src="static/images/flowdiagram.jpg" alt="Data Flow Diagram" class="flow-diagram-img" />
+            </div>
+            <div class="column is-5">
+              <p class="is-size-6 mb-3">
+                The diagram outlines the end-to-end signal processing and analytics pipeline built for this study:
+              </p>
+              <ol class="is-size-6 pl-4">
+                <li class="mb-2"><strong>Continuous Bio-Sensing:</strong> EmbracePlus smartwatches log raw physiological variables directly.</li>
+                <li class="mb-2"><strong>Encrypted Upload:</strong> Signals sync via a companion mobile app to Empatica's secure AWS servers.</li>
+                <li class="mb-2"><strong>Format Conversion:</strong> High-volume Avro binary archives convert into structured, clean CSV tables.</li>
+                <li class="mb-2"><strong>Data Analysis:</strong> Custom signal filters, slope fits, and mixed-effects statistical models isolate active driving vs rest periods.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
-  <!-- End Subject Driven Video Generation carousel -->
 
-
-
-
-
-
-
-  <!-- Paper abstract -->
-  <section class="section hero is-light">
+  <!-- Survey responses & statistics -->
+  <section class="section is-light">
     <div class="container is-max-desktop">
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3">Abstract</h2>
-          <div class="content has-text-justified">
+      <h2 class="title is-2 mb-5">Retrospective Survey Analysis</h2>
+
+      <div class="columns is-desktop">
+        
+        <!-- Table Column -->
+        <div class="column is-6">
+          <div class="card table-card">
+            <div class="card-content">
+              <h3 class="title is-4 mb-4">Daily Survey Statistics</h3>
+              <p class="is-size-6 mb-4">
+                Drivers completed retrospective daily questionnaires at the end of each shift (rating traffic/weather 1-3, stress 1-5). Standard metrics (mean &plusmn; SD) show moderate stress, high workload, and regular caffeine consumption:
+              </p>
+              
+              <div class="table-container">
+                <table class="table is-striped is-hoverable is-fullwidth">
+                  <thead>
+                    <tr>
+                      <th>Variables</th>
+                      <th class="has-text-right">Mean &plusmn; SD</th>
+                      <th class="has-text-right">Median</th>
+                      <th class="has-text-right">Range</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>Hours Driven</strong></td>
+                      <td class="has-text-right">8.36 &plusmn; 1.67</td>
+                      <td class="has-text-right">8.5</td>
+                      <td class="has-text-right">5.0 – 12.5</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Breaks Taken</strong></td>
+                      <td class="has-text-right">1.20 &plusmn; 0.96</td>
+                      <td class="has-text-right">1.0</td>
+                      <td class="has-text-right">0 – 4</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Stress Rating</strong></td>
+                      <td class="has-text-right">1.72 &plusmn; 0.79</td>
+                      <td class="has-text-right">1.0</td>
+                      <td class="has-text-right">1 – 3</td>
+                    </tr>
+                    <tr>
+                      <td><strong>General Traffic</strong></td>
+                      <td class="has-text-right">1.52 &plusmn; 0.61</td>
+                      <td class="has-text-right">1.0</td>
+                      <td class="has-text-right">1 – 3</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Visibility Condition</strong></td>
+                      <td class="has-text-right">2.28 &plusmn; 0.69</td>
+                      <td class="has-text-right">2.0</td>
+                      <td class="has-text-right">1 – 3</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Quality of Food</strong></td>
+                      <td class="has-text-right">3.22 &plusmn; 0.86</td>
+                      <td class="has-text-right">3.0</td>
+                      <td class="has-text-right">1 – 5</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Caffeinated Drinks</strong></td>
+                      <td class="has-text-right">2.07 &plusmn; 1.55</td>
+                      <td class="has-text-right">2.0</td>
+                      <td class="has-text-right">0 – 6</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Non-caffeinated Drinks</strong></td>
+                      <td class="has-text-right">0.30 &plusmn; 0.63</td>
+                      <td class="has-text-right">0.0</td>
+                      <td class="has-text-right">0 – 2</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Boxplot Column -->
+        <div class="column is-6">
+          <div class="card boxplot-card">
+            <div class="card-content">
+              <h3 class="title is-4 mb-4">Distribution of Survey Responses</h3>
+              <div class="image-wrapper mb-3">
+                <img src="static/images/boxplot.jpg" alt="Survey Responses Boxplot" class="boxplot-img" />
+              </div>
+              <p class="is-size-6 text-muted">
+                <strong>Figure:</strong> Boxplot of survey variables showing the spread of all participant responses. Shift duration remains consistently high (average ~8.4 hours), while daily stress rating and traffic levels reflect typical variability in long-haul trucking environments.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Physiological Findings Section -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <h2 class="title is-2 mb-4 has-text-centered">Physiological Findings Showcase</h2>
+      <p class="subtitle is-5 has-text-centered text-muted mb-6">
+        Select a physiological indicator below to view statistical results and real-world signal trends.
+      </p>
+
+      <!-- Bulma Tabs -->
+      <div class="tabs is-centered is-toggle is-toggle-rounded mb-6">
+        <ul>
+          <li class="is-active" data-tab="stress-tab">
+            <a>
+              <span class="icon is-small"><i class="fas fa-chart-bar"></i></span>
+              <span>Stress & Context</span>
+            </a>
+          </li>
+          <li data-tab="heart-tab">
+            <a>
+              <span class="icon is-small"><i class="fas fa-heartbeat"></i></span>
+              <span>Heart Rate Trends</span>
+            </a>
+          </li>
+          <li data-tab="slope-tab">
+            <a>
+              <span class="icon is-small"><i class="fas fa-chart-line"></i></span>
+              <span>Accumulated Load</span>
+            </a>
+          </li>
+          <li data-tab="eda-tab">
+            <a>
+              <span class="icon is-small"><i class="fas fa-bolt"></i></span>
+              <span>EDA & Arousal</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Tab Content Panels -->
+      
+      <!-- Panel 1: Stress & Context Correlation -->
+      <div class="tab-content" id="stress-tab">
+        <div class="card panel-card">
+          <div class="card-content">
+            <div class="columns is-desktop is-vcentered">
+              <div class="column is-6">
+                <h3 class="title is-4 mb-3">Retrospective Stress Model</h3>
+                <h4 class="subtitle is-6 text-primary">Traffic & Visibility as Primary Environmental Stressors</h4>
+                <p class="is-size-6 mb-3">
+                  Linear mixed-effects models (with driver random effects) revealed a strong correlation between driving conditions and daily reported stress levels.
+                </p>
+                <div class="notification is-info is-light py-3 px-4 mb-3">
+                  <p class="is-size-6">
+                    <strong>Statistical Results:</strong><br>
+                    &bull; <strong>Traffic Levels:</strong> &chi;<sup>2</sup>(2) = 8.70, p = .012, partial &eta;<sup>2</sup> = 0.16<br>
+                    &bull; <strong>Visibility:</strong> &chi;<sup>2</sup>(2) = 18.41, p &lt; .001, partial &eta;<sup>2</sup> = 0.21
+                  </p>
+                </div>
+                <p class="is-size-6 text-muted">
+                  Post hoc comparisons using Tukey’s test verified that heavy traffic congestion (score 3) generated significantly higher retrospective stress compared to light conditions (score 1) (t = -2.45, p = .045). In contrast, drivers reported lower stress on days with normal visibility than on days with adverse weather.
+                </p>
+              </div>
+              <div class="column is-6 has-text-centered">
+                <div class="findings-img-container">
+                  <img src="static/images/stresscorr.png" alt="Stress Correlation Plot" class="findings-img" />
+                </div>
+                <p class="is-size-7 text-muted mt-2"><strong>Figure:</strong> Coefficients of independent survey variables predicting retrospective daily stress levels.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Panel 2: Heart Rate Analysis -->
+      <div class="tab-content is-hidden" id="heart-tab">
+        <div class="card panel-card">
+          <div class="card-content">
+            <div class="columns is-desktop is-vcentered">
+              <div class="column is-6">
+                <h3 class="title is-4 mb-3">Driver Heart Rate Analysis</h3>
+                <h4 class="subtitle is-6 text-primary">Driving Periods vs. Sleep & Rest States</h4>
+                <p class="is-size-6 mb-3">
+                  Exploratory signal analysis isolated active driving windows using driver-reported logs. The results indicate clear, sharp physiological boundaries between duty cycles:
+                </p>
+                <ul class="is-size-6 pl-4 mb-3" style="list-style-type: square;">
+                  <li class="mb-2"><strong>Sleep/Rest States:</strong> Lowest heart rates (green), average 70–80 bpm, showing normal cardiac recovery.</li>
+                  <li class="mb-2"><strong>Active Driving Shifts:</strong> Heart rate increases significantly (blue), averaging 80–95 bpm, suggesting continuous cognitive workload and vigilance.</li>
+                  <li class="mb-2"><strong>Gradual Rising Trends:</strong> Heart rate slopes upward during extended driving hours, with noticeable recovery periods around breaks.</li>
+                </ul>
+              </div>
+              <div class="column is-6 has-text-centered">
+                <div class="findings-img-container">
+                  <img src="static/images/heartrate.png" alt="Heart Rate Plot" class="findings-img" />
+                </div>
+                <p class="is-size-7 text-muted mt-2"><strong>Figure:</strong> Continuous heart rate signal showing transitions between sleep (green) and active driving shifts (blue) across two example days.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Panel 3: HR Slope vs Duration -->
+      <div class="tab-content is-hidden" id="slope-tab">
+        <div class="card panel-card">
+          <div class="card-content">
+            <div class="columns is-desktop is-vcentered">
+              <div class="column is-6">
+                <h3 class="title is-4 mb-3">Cumulative Fatigue Indicators</h3>
+                <h4 class="subtitle is-6 text-primary">Slope of Heart Rate Changes over Driving Duration</h4>
+                <p class="is-size-6 mb-3">
+                  Instead of analyzing absolute values, we calculated the <strong>slope of heart rate within consecutive 30-minute intervals</strong>. Positive slopes imply gradual increases reflecting mounting cardiovascular effort or vigilance stress.
+                </p>
+                <div class="notification is-success is-light py-3 px-4 mb-3">
+                  <p class="is-size-6">
+                    <strong>Correlation Result:</strong><br>
+                    A positive correlation (<strong>r = 0.446</strong>) exists between accumulated driving hours and average heart rate slope, suggesting that cardiac load rises steadily over time.
+                  </p>
+                </div>
+                <p class="is-size-6 text-muted">
+                  Clusters of positive slopes dominate active morning and midday periods, corresponding to heavier traffic and task demand. Negative slopes dominate during typical rest, fuel stops, and post-shift recovery.
+                </p>
+              </div>
+              <div class="column is-6 has-text-centered">
+                <div class="findings-img-container">
+                  <img src="static/images/HR_Slope_hours.png" alt="Heart Rate Slope vs Hours" class="findings-img" />
+                </div>
+                <p class="is-size-7 text-muted mt-2"><strong>Figure:</strong> Scatterplot showing positive correlation between average 30-minute heart rate slopes and hours driven.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Panel 4: Electrodermal Activity (EDA) -->
+      <div class="tab-content is-hidden" id="eda-tab">
+        <div class="card panel-card">
+          <div class="card-content">
+            <div class="columns is-desktop is-vcentered">
+              <div class="column is-6">
+                <h3 class="title is-4 mb-3">Electrodermal Activity & Sympathetic Arousal</h3>
+                <h4 class="subtitle is-6 text-primary">Arousal Spikes during Extended Driving</h4>
+                <p class="is-size-6 mb-3">
+                  Electrodermal activity (EDA) serves as an objective marker of sympathetic nervous system activation, strongly reflecting stress responses and mental exertion:
+                </p>
+                <ul class="is-size-6 pl-4 mb-3" style="list-style-type: square;">
+                  <li class="mb-2"><strong>Sustained Increase:</strong> EDA rises steadily during long-haul driving shifts, indicating escalating physiological arousal over time.</li>
+                  <li class="mb-2"><strong>High-Demand Spikes:</strong> Sharp EDA transient spikes are observed during complex driving scenarios (e.g. merging, highway traffic, and tight maneuvers).</li>
+                  <li class="mb-2"><strong>Resting baseline:</strong> Normal routines and breaks (green segments) exhibit stable, lower EDA levels with few fluctuations.</li>
+                </ul>
+              </div>
+              <div class="column is-6 has-text-centered">
+                <div class="findings-img-container">
+                  <img src="static/images/eda.png" alt="EDA Plot" class="findings-img" />
+                </div>
+                <p class="is-size-7 text-muted mt-2"><strong>Figure:</strong> 12-hour continuous EDA signal showing active driving (blue) vs normal routine (green) with labels highlighting cognitive load trends.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Conclusions Section -->
+  <section class="section is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-10">
+          <h2 class="title is-3 mb-4 text-centered">Conclusions & Impacts</h2>
+          <div class="content is-size-6 has-text-justified">
             <p>
-              Text-driven image and video diffusion models have recently achieved unprecedented generation realism.
-              While diffusion models have been successfully applied for image editing, very few works have done so for
-              video editing. We present the first diffusion-based method that is able to perform text-based motion and
-              appearance editing of general videos. Our approach uses a video diffusion model to combine, at inference
-              time, the low-resolution spatio-temporal information from the original video with new, high resolution
-              information that it synthesized to align with the guiding text-prompt. As obtaining high-fidelity to the
-              original video requires retaining some of its high-resolution information, we add a preliminary stage of
-              finetuning the model on the original video, significantly boosting fidelity. We propose to improve motion
-              editability by a new, mixed objective that jointly finetunes with full temporal attention and with
-              temporal attention masking. We further introduce a new framework for image animation. We first transform
-              the image into a coarse video by simple image processing operations such as replication and perspective
-              geometric projections, and then use our general video editor to animate it. As a further application, we
-              can use our method for subject-driven video generation. Extensive qualitative and numerical experiments
-              showcase the remarkable editing ability of our method and establish its superior performance compared to
-              baseline methods.
+              This study demonstrates the <strong>feasibility and utility of research-grade wearable sensing</strong> (specifically using the Empatica EmbracePlus smartwatch) to track commercial vehicle driver stress and fatigue in naturalistic, real-world fleet operations. 
+            </p>
+            <p>
+              Key takeaways include:
+            </p>
+            <ul>
+              <li class="mb-3"><strong>Clear Physiological Boundaries:</strong> Heart rate and electrodermal activity (EDA) signals successfully capture distinct physiological workload boundaries between active driving shifts, breaks, and sleeping states.</li>
+              <li class="mb-3"><strong>Context Matters:</strong> Retrospective statistical analysis proves that environmental factors like visibility conditions and heavy traffic are the strongest predictors of subjective stress levels.</li>
+              <li class="mb-3"><strong>Physical Indicators & Cumulative Fatigue:</strong> A positive correlation (r = 0.446) was established between driving hours and heart rate slope, indicating mounting cardiac effort. Steady increases in EDA reflect continuous sympathetic arousal.</li>
+              <li class="mb-3"><strong>Environmental Contaminants:</strong> Wearable skin temperature was highly variable and proved unreliable as a direct stress indicator, demonstrating significant susceptibility to cabin AC and climate settings.</li>
+            </ul>
+            <p>
+              These findings lay the groundwork for developing next-generation active fatigue-detection technologies, informing fleet scheduling, and optimizing driver wellness interventions.
             </p>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- End paper abstract -->
 
-
-  <!-- Vid2vid carousel -->
-  <section class="hero is-small">
-    <div class="hero-body">
-      <div class="container  is-max-desktop">
-        <h2 class="title is-3">Video Editing</h2>
-        <div id="results-carousel" class="carousel results-carousel">
-          <div class="item item-video1">
-            <video poster="" id="vid2vid_video1" playsinline autoplay muted loop height="90%"
-              src="static/videos/vid2vid_leaping.mp4">
-            </video>
-          </div>
-          <div class="item item-video2">
-            <video poster="" id="vid2vid_video2" playsinline autoplay muted loop height="90%"
-              src="static/videos/vid2vid_party_hat.mp4">
-            </video>
-          </div>
-          <div class="item item-video3">
-            <video poster="" id="vid2vid_video3" playsinline autoplay muted loop height="90%"
-              src="static/videos/vid2vid_robot.mp4">
-            </video>
-          </div>
-          <div class="item item-video4">
-            <video poster="" id="vid2vid_video4" playsinline autoplay muted loop height="90%"
-              src="static/videos/vid2vid_cake.mp4">
-            </video>
-          </div>
-
-          <div class="item item-video5">
-            <video poster="" id="vid2vid_video5" playsinline autoplay muted loop height="90%"
-              src="static/videos/vid2vid_orangutan_hello.mp4">
-            </video>
-          </div>
-
-          <div class="item item-video6">
-            <video poster="" id="vid2vid_video6" playsinline autoplay muted loop height="90%"
-              src="static/videos/vid2vid_truck_zoom.mp4">
-            </video>
-          </div>
-
-
-          <div class="item item-video7">
-            <video poster="" id="vid2vid_video7" playsinline autoplay muted loop height="90%"
-              src="static/videos/vid2vid_fire.mp4">
-            </video>
-          </div>
-
-
-          <div class="item item-video8">
-            <video poster="" id="vid2vid_video8" playsinline autoplay muted loop height="90%"
-              src="static/videos/vid2vid_cats.mp4">
-            </video>
-          </div>
-
-
-          <div class="item item-video9">
-            <video poster="" id="vid2vid_video9" playsinline autoplay muted loop height="90%"
-              src="static/videos/vid2vid_skateboard.mp4">
-            </video>
-          </div>
-
-
-          <div class="item item-video10">
-            <video poster="" id="vid2vid_video10" playsinline autoplay muted loop height="90%"
-              src="static/videos/vid2vid_truck_logs.mp4">
-            </video>
-          </div>
-
-          <div class="item item-video11">
-            <video poster="" id="vid2vid_video11" playsinline autoplay muted loop height="90%"
-              src="static/videos/vid2vid_noodles.mp4">
-            </video>
-          </div>
-
-          <div class="item item-video12">
-            <video poster="" id="vid2vid_video12" playsinline autoplay muted loop height="90%"
-              src="static/videos/vid2vid_circle.mp4">
-            </video>
-          </div>
-
-          <div class="item item-video13">
-            <video poster="" id="vid2vid_video13" playsinline autoplay muted loop height="90%"
-              src="static/videos/vid2vid_orangutan_hello2.mp4">
-            </video>
-          </div>
-
-
-          <div class="item item-video14">
-            <video poster="" id="vid2vid_video14" playsinline autoplay muted loop height="90%"
-              src="static/videos/vid2vid_football.mp4">
-            </video>
-          </div>
-
-
-          <div class="item item-video15">
-            <video poster="" id="vid2vid_video15" playsinline autoplay muted loop height="90%"
-              src="static/videos/vid2vid_orangutan_bath.mp4">
-            </video>
-          </div>
-
-          <div class="item item-video16">
-            <video poster="" id="vid2vid_video16" playsinline autoplay muted loop height="90%"
-              src="static/videos/vid2vid_truck_river.mp4">
-            </video>
-          </div>
-
-          <div class="item item-video17">
-            <video poster="" id="vid2vid_video17" playsinline autoplay muted loop height="90%"
-              src="static/videos/vid2vid_swans.mp4">
-            </video>
-          </div>
-
-          <div class="item item-video18">
-            <video poster="" id="vid2vid_video18" playsinline autoplay muted loop height="90%"
-              src="static/videos/vid2vid_saxophone.mp4">
-            </video>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End vid2vid carousel -->
-
-
-  <!-- Img2vid carousel -->
-  <section class="hero is-small is-light">
-    <div class="hero-body">
-      <div class="container  is-max-desktop">
-        <h2 class="title is-3">Image-to-Video</h2>
-        <div id="results-carousel" class="carousel results-carousel">
-          <div class="item item-video1">
-            <video poster="" id="img2vid_video1" playsinline autoplay muted loop height="90%"
-              src="static/videos/img2vid_plant.mp4">
-            </video>
-          </div>
-          <div class="item item-video2">
-            <video poster="" id="img2vid_video2" playsinline autoplay muted loop height="90%"
-              src="static/videos/img2vid_buffalo.mp4">
-            </video>
-          </div>
-          <div class="item item-video3">
-            <video poster="" id="img2vid_video3" playsinline autoplay muted loop height="90%"
-              src="static/videos/img2vid_grizzly.mp4">
-            </video>
-          </div>
-
-          <div class="item item-video4">
-            <video poster="" id="img2vid_video4" playsinline autoplay muted loop height="90%"
-              src="static/videos/img2vid_coffee.mp4">
-            </video>
-          </div>
-
-          <div class="item item-video5">
-            <video poster="" id="img2vid_video5" playsinline autoplay muted loop height="90%"
-              src="static/videos/img2vid_camel.mp4">
-            </video>
-          </div>
-          <div class="item item-video6">
-            <video poster="" id="img2vid_video6" playsinline autoplay muted loop height="90%"
-              src="static/videos/img2vid_pengiun.mp4">
-            </video>
-          </div>
-          <div class="item item-video7">
-            <video poster="" id="img2vid_video7" playsinline autoplay muted loop height="90%"
-              src="static/videos/img2vid_unicorn.mp4">
-            </video>
-          </div>
-
-          <div class="item item-video8">
-            <video poster="" id="img2vid_video8" playsinline autoplay muted loop height="90%"
-              src="static/videos/img2vid_bigfoot.mp4">
-            </video>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End img2vid carousel -->
-
-
-  <!-- Subject Driven Video Generation carousel -->
-  <section class="hero is-small">
-    <div class="hero-body ">
-      <div class="container is-max-desktop">
-        <h2 class="title is-3">Subject Driven Video Generation</h2>
-        <div id="results-carousel" class="carousel results-carousel">
-          <div class="item item-video1">
-            <video poster="" id="sd_video1" playsinline autoplay muted loop height="90%"
-              src="static/videos/subj_driv_walking.mp4">
-            </video>
-          </div>
-          <div class="item item-video2">
-            <video poster="" id="sd_video2" playsinline autoplay muted loop height="90%"
-              src="static/videos/subj_driv_drinking.mp4">
-            </video>
-          </div>
-          <div class="item item-video3">
-            <video poster="" id="sd_video3" playsinline autoplay muted loop height="90%"
-              src="static/videos/subj_driv_dancing.mp4">
-            </video>
-          </div>
-          <div class="item item-video4">
-            <video poster="" id="sd_video4" playsinline autoplay muted loop height="90%"
-              src="static/videos/subj_driv_stretching.mp4">
-            </video>
-          </div>
-          <div class="item item-video5">
-            <video poster="" id="sd_video5" playsinline autoplay muted loop height="90%"
-              src="static/videos/subj_driv_magnifying.mp4">
-            </video>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Subject Driven Video Generation carousel -->
-
-
-
-  <section class="section hero is-small is-light">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <div class="column is-full">
-          <div class="content">
-            <h2 class="title is-3">Method Overview: Mixed Video-Image Finetuning</h2>
-            <center>
-              <img src="static/images/architecture_finetune.png" alt="Mixed Video-Image Finetuning"
-                class="center-image blend-img-background" />
-            </center>
-            <div class="level-set has-text-justified">
-              <p>
-                Finetuning the video diffusion model on the input video alone limits the extent of motion change.
-                Instead, we use a mixed objective that beside the original objective (bottom left) also finetunes on the
-                unordered set of frames. This is done by using “masked temporal attention”, preventing the temporal
-                attention and convolution from being finetuned (bottom right). This allows adding motion to a static
-                video.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-  <section class="section is-small">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <div class="column is-full">
-          <div class="content">
-            <h2 class="title is-3">Inference Overview</h2>
-            <center>
-              <img src="static/images/architecture_applications_extended.png" alt="Inference Overview"
-                class="center-image" />
-            </center>
-            <div class="level-set has-text-justified">
-              <p>
-                Our method supports multiple applications by application dependent pre-processing (left), converting the
-                input content into a uniform video format. For image-to-video, the input image is duplicated and
-                transformed using perspective transformations, synthesizing a coarse video with some camera motion. For
-                subject driven video generation, the input is omitted - finetuning alone take care of the fidelity.
-                This coarse video is then edited using our general ``Dreamix Video Editor`` (right): we first corrupt
-                the video by downsampling followed by adding noise. We then apply the finetuned text-guided video
-                diffusion model, which upscales the video to the final spatio-temporal resolution
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-  <!-- Youtube video -->
-  <section class="hero is-small is-light">
-    <div class="hero-body">
-      <div class="container">
-        <!-- Paper video. -->
-        <h2 class="title is-3">Video Presentation</h2>
-        <div class="columns is-centered has-text-centered">
-          <div class="column is-four-fifths">
-
-            <div class="publication-video">
-              <!-- Youtube embed code here -->
-              <iframe src="https://www.youtube.com/embed/xcvnHhfDSGM" frameborder="0" allow="autoplay; encrypted-media"
-                allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End youtube video -->
-
-
-
-  <!--BibTex citation -->
+  <!-- BibTeX Citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>@article{molad2023dreamix,
-  title={Dreamix: Video Diffusion Models are General Video Editors},
-  author={Molad, Eyal and Horwitz, Eliahu and Valevski, Dani and Acha, Alex Rav and Matias, Yossi and Pritch, Yael and Leviathan, Yaniv and Hoshen, Yedid},
-  journal={arXiv preprint arXiv:2302.01329},
-  year={2023}
+      <div class="card bibtex-card">
+        <div class="card-content">
+          <h2 class="title is-4 mb-3">BibTeX Citation</h2>
+          <p class="is-size-6 mb-4 text-muted">If you find this work or dataset insights helpful in your research, please cite our IEEE IV paper:</p>
+          <div class="bibtex-wrapper">
+            <pre><code>@inproceedings{thapa2026characterizing,
+  title={Characterizing Stress and Fatigue in Long-Haul Truck Drivers through Wearable Sensing and Physiological Measures},
+  author={Thapa, Surendrabikram and Sarkar, Abhijit},
+  booktitle={IEEE Intelligent Vehicles Symposium (IV)},
+  year={2026}
 }</code></pre>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
-  <!-- End BibTex citation -->
 
-  <!--Acknowledgements -->
-  <section class="section" id="Acknowledgements">
-    <div class="container is-max-desktop content">
-      <h2 class="title">Acknowledgements</h2>
-      We thank Ely Sarig for creating the video, Jay Tenenbaum for the video narration, Amir Hertz for the
-      implementation of our eval baseline, Daniel Cohen-Or, Assaf Zomet, Eyal Segalis, Matan Kalman and Emily Denton for
-      their valuable inputs that helped improve this work.
-    </div>
-  </section>
-  <!--End Acknowledgements -->
-
+  <!-- Footer -->
   <footer class="footer">
     <div class="container">
       <div class="columns is-centered">
         <div class="column is-8">
-          <div class="content">
-
+          <div class="content has-text-centered">
             <p>
-              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template"
+              This website was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template"
                 target="_blank">Academic Project Page Template</a>.
-              You are free to borrow the of this website, we just ask that you link back to this page in the footer.
-              <br> This website is licensed under a <a rel="license"
+              The codebase is licensed under a <a rel="license"
                 href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
                 Commons Attribution-ShareAlike 4.0 International License</a>.
             </p>
-
+            <p class="is-size-7 text-muted">
+              Virginia Tech Transportation Institute (VTTI) &copy; 2026. All rights reserved.
+            </p>
           </div>
         </div>
       </div>
     </div>
   </footer>
 
-  <!-- Statcounter tracking code -->
-
-  <!-- Default Statcounter code for Dreamix
-https://dreamix-video-editing.github.io -->
-  <script type="text/javascript">
-    var sc_project = 12843789;
-    var sc_invisible = 1;
-    var sc_security = "e9c3bf5f"; 
-  </script>
-  <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
-  <noscript>
-    <div class="statcounter"><a title="Web Analytics" href="https://statcounter.com/" target="_blank"><img
-          class="statcounter" src="https://c.statcounter.com/12843789/0/e9c3bf5f/1/" alt="Web Analytics"
-          referrerPolicy="no-referrer-when-downgrade"></a></div>
-  </noscript>
-
-  <!-- End of Statcounter Code -->
-
 </body>
-
 </html>

@@ -1,141 +1,306 @@
+/* Deep premium typography and visual design for Driver Wearables Study */
 body {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
+  color: #2d3748;
+  background-color: #fafbfc;
 }
 
-
-.footer .icon-link {
-    font-size: 25px;
-    color: #000;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  color: #1a202c;
 }
 
-.link-block a {
-    margin-top: 5px;
-    margin-bottom: 5px;
+.primary-gradient-text {
+  background: linear-gradient(135deg, #1a202c 10%, #2b6cb0 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
 }
 
-.dnerf {
-  font-variant: small-caps;
+.accent-gradient-text {
+  background: linear-gradient(135deg, #2b6cb0 20%, #4299e1 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  letter-spacing: -0.01em;
 }
 
-
-.teaser .hero-body {
-  padding-top: 0;
-  padding-bottom: 3rem;
+/* Announcement Badge */
+.publication-venue-badge .tag {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  border-radius: 9999px;
+  padding: 0.5rem 1.2rem;
+  letter-spacing: 0.02em;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
 
-.teaser {
-  font-family: 'Google Sans', sans-serif;
+.hero-body {
+  padding-top: 5rem;
+  padding-bottom: 4rem;
 }
 
-
-.publication-title {
-}
-
-.publication-banner {
-  max-height: parent;
-
-}
-
-.publication-banner video {
-  position: relative;
-  left: auto;
-  top: auto;
-  transform: none;
-  object-fit: fit;
-}
-
-.publication-header .hero-body {
-}
-
-.publication-title {
-    font-family: 'Google Sans', sans-serif;
-}
-
+/* Authors and Affiliations styling */
 .publication-authors {
-    font-family: 'Google Sans', sans-serif;
-}
-
-.publication-venue {
-    color: #555;
-    width: fit-content;
-    font-weight: bold;
-}
-
-.publication-awards {
-    color: #ff3860;
-    width: fit-content;
-    font-weight: bolder;
-}
-
-.publication-authors {
+  font-weight: 500;
 }
 
 .publication-authors a {
-   color: hsl(204, 86%, 53%) !important;
+  color: #3182ce !important;
+  transition: color 0.15s ease;
 }
 
 .publication-authors a:hover {
-    text-decoration: underline;
+  color: #2b6cb0 !important;
+  text-decoration: underline;
 }
 
-.author-block {
-  display: inline-block;
+.publication-institutions {
+  color: #4a5568;
+  font-weight: 400;
 }
 
-.publication-banner img {
+.email-block code {
+  background-color: #edf2f7;
+  color: #2d3748;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
 }
 
-.publication-authors {
-  /*color: #4286f4;*/
+/* Button Accents */
+.external-link.button.is-dark {
+  background-color: #1a202c;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  transition: all 0.25s ease;
 }
 
-.publication-video {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
-
-    overflow: hidden;
-    border-radius: 10px !important;
+.external-link.button.is-dark:hover {
+  background-color: #2b6cb0;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(43, 108, 176, 0.25);
 }
 
-.publication-video iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+.external-link.button.is-light {
+  background-color: #fff;
+  color: #2d3748;
+  border: 1px solid #e2e8f0;
+  font-weight: 500;
+  transition: all 0.25s ease;
 }
 
-.publication-body img {
+.external-link.button.is-light:hover {
+  border-color: #cbd5e0;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
-.results-carousel {
-  overflow: hidden;
+/* Abstract card custom style */
+.abstract-card {
+  border-radius: 20px;
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.04), 0 8px 10px -6px rgba(0, 0, 0, 0.02);
+  background-color: #ffffff;
+  padding: 1.5rem;
 }
 
-.results-carousel .item {
-  margin: 5px;
-  overflow: hidden;
-  padding: 20px;
-  font-size: 0;
+/* Methodology cards style */
+.design-card {
+  border-radius: 16px;
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
+  background-color: #ffffff;
+  height: 100%;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.results-carousel video {
+.design-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.06);
+  border-color: rgba(66, 153, 225, 0.4);
+}
+
+.design-card .icon {
+  margin-bottom: 0.5rem;
+}
+
+.primary-color-text {
+  color: #3182ce;
+}
+
+/* Flow Diagram overview card */
+.overview-card {
+  border-radius: 20px;
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  background-color: #ffffff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.02);
+}
+
+.flow-diagram-img {
+  max-width: 100%;
+  max-height: 280px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* Retrospective survey details */
+.table-card, .boxplot-card {
+  border-radius: 20px;
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  background-color: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.02);
+  height: 100%;
+}
+
+.boxplot-img {
+  max-width: 100%;
+  max-height: 270px;
+  object-fit: contain;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.image-wrapper {
+  background-color: #f7fafc;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #edf2f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styled HTML statistics Table */
+.table th {
+  color: #4a5568;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  border-bottom-width: 2px !important;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+/* Interactive Tabs custom overrides */
+.tabs.is-toggle ul {
+  background-color: #edf2f7;
+  padding: 4px;
+  border-radius: 9999px;
+  border: none;
+}
+
+.tabs.is-toggle li a {
+  border: none;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  color: #4a5568;
+  border-radius: 9999px;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.25s ease;
+}
+
+.tabs.is-toggle li.is-active a {
+  background-color: #2b6cb0;
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(43, 108, 176, 0.3);
+}
+
+.tabs.is-toggle li:not(.is-active) a:hover {
+  background-color: rgba(203, 213, 224, 0.4);
+  color: #2b6cb0;
+}
+
+/* Panel cards */
+.panel-card {
+  border-radius: 20px;
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  background-color: #ffffff;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+  animation: fadeIn 0.4s ease-out;
+}
+
+.findings-img-container {
+  background: #f7fafc;
+  padding: 15px;
+  border-radius: 16px;
+  border: 1px solid #edf2f7;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.findings-img {
+  max-width: 100%;
+  max-height: 330px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* BibTeX formatting styles */
+.bibtex-card {
+  border-radius: 20px;
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.02);
+  background-color: #ffffff;
+}
+
+.bibtex-wrapper {
+  background-color: #1a202c;
+  border-radius: 12px;
+  padding: 1.5rem;
+  overflow-x: auto;
+  border: 1px solid #2d3748;
+}
+
+.bibtex-wrapper pre {
+  background: transparent;
+  color: #e2e8f0;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  font-size: 0.9rem;
+  padding: 0;
   margin: 0;
+  line-height: 1.5;
 }
 
-.slider-pagination .slider-page {
-  background: #000000;
+/* Footer elements overrides */
+.footer {
+  background-color: #f7fafc;
+  border-top: 1px solid #edf2f7;
+  padding: 4rem 1.5rem;
 }
 
-.eql-cntrb { 
-  font-size: smaller;
+.footer a {
+  color: #2b6cb0;
+  font-weight: 500;
 }
 
-
-
-.blend-img-background {
-    mix-blend-mode: multiply;
+.footer a:hover {
+  text-decoration: underline;
 }
 
+.text-muted {
+  color: #718096 !important;
+}
+
+.text-primary {
+  color: #2b6cb0 !important;
+}
+
+/* Utility Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
