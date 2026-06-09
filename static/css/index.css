@@ -100,6 +100,45 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
+.external-link.button.report-link {
+  background-color: #ffffff;
+  color: #1a202c;
+  border: 1px solid #cbd5e0;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+.external-link.button.report-link .icon {
+  color: #2b6cb0;
+}
+
+.external-link.button.report-link:hover {
+  border-color: #2b6cb0;
+  color: #2b6cb0;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(43, 108, 176, 0.18);
+}
+
+.external-link.button.vt-home-link {
+  background-color: #861f41;
+  color: #ffffff;
+  border: 1px solid #861f41;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+.external-link.button.vt-home-link .icon {
+  color: #e5751f;
+}
+
+.external-link.button.vt-home-link:hover {
+  background-color: #6f1936;
+  border-color: #e5751f;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(134, 31, 65, 0.28);
+}
+
 /* Abstract card custom style */
 .abstract-card {
   border-radius: 20px;
@@ -216,6 +255,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #2b6cb0;
 }
 
+.physiological-showcase > .container > .title.is-2 {
+  margin-bottom: 1.25rem !important;
+}
+
+.physiological-showcase > .container > .subtitle.is-5 {
+  margin-top: 0 !important;
+}
+
 /* Panel cards */
 .panel-card {
   border-radius: 20px;
@@ -223,6 +270,15 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #ffffff;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
   animation: fadeIn 0.4s ease-out;
+}
+
+.panel-card .title.is-4 {
+  margin-bottom: 1rem !important;
+}
+
+.panel-card .subtitle.is-6 {
+  margin-top: 0 !important;
+  margin-bottom: 1.25rem;
 }
 
 .findings-img-container {
@@ -241,6 +297,11 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 330px;
   object-fit: contain;
   border-radius: 8px;
+}
+
+.technical-report-note {
+  border-left: 4px solid #2b6cb0;
+  margin-top: 1.25rem;
 }
 
 /* BibTeX formatting styles */

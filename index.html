@@ -22,7 +22,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Driver Stress & Fatigue Wearable Study - IEEE IV 2026</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="icon" type="image/svg+xml" href="static/images/favicon-health.svg">
   
   <!-- Premium Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&family=Noto+Sans&display=swap" rel="stylesheet">
@@ -31,7 +31,6 @@
   <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="static/css/index.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -52,7 +51,7 @@
             
             <!-- Venue Badge -->
             <div class="publication-venue-badge mb-4">
-              <span class="tag is-success is-light is-medium">Accepted to <strong>IEEE Intelligent Vehicles Symposium (IV) 2026</strong></span>
+              <span class="tag is-success is-light is-medium">Accepted to&nbsp;<strong>IEEE Intelligent Vehicles Symposium (IV) 2026</strong></span>
             </div>
 
             <!-- Title -->
@@ -96,23 +95,23 @@
                   </a>
                 </span>
 
-                <!-- arXiv Link -->
+                <!-- Detailed Report Link -->
                 <span class="link-block">
-                  <a href="#" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
+                  <a href="https://hdl.handle.net/10919/125068" target="_blank" rel="noopener"
+                    class="external-link button is-normal is-rounded report-link">
                     <span class="icon">
-                      <i class="ai ai-arxiv"></i>
+                      <i class="fas fa-file-alt"></i>
                     </span>
-                    <span>arXiv</span>
+                    <span>Detailed Report</span>
                   </a>
                 </span>
 
                 <!-- VTTI Website Link -->
                 <span class="link-block">
                   <a href="https://www.vtti.vt.edu/" target="_blank"
-                    class="external-link button is-normal is-rounded is-light">
+                    class="external-link button is-normal is-rounded vt-home-link">
                     <span class="icon">
-                      <i class="fas fa-house"></i>
+                      <i class="fas fa-university"></i>
                     </span>
                     <span>VTTI Home</span>
                   </a>
@@ -329,7 +328,7 @@
   </section>
 
   <!-- Interactive Physiological Findings Section -->
-  <section class="section">
+  <section class="section physiological-showcase">
     <div class="container is-max-desktop">
       <h2 class="title is-2 mb-4 has-text-centered">Physiological Findings Showcase</h2>
       <p class="subtitle is-5 has-text-centered text-muted mb-6">
@@ -339,22 +338,10 @@
       <!-- Bulma Tabs -->
       <div class="tabs is-centered is-toggle is-toggle-rounded mb-6">
         <ul>
-          <li class="is-active" data-tab="stress-tab">
-            <a>
-              <span class="icon is-small"><i class="fas fa-chart-bar"></i></span>
-              <span>Stress & Context</span>
-            </a>
-          </li>
-          <li data-tab="heart-tab">
+          <li class="is-active" data-tab="heart-tab">
             <a>
               <span class="icon is-small"><i class="fas fa-heartbeat"></i></span>
               <span>Heart Rate Trends</span>
-            </a>
-          </li>
-          <li data-tab="slope-tab">
-            <a>
-              <span class="icon is-small"><i class="fas fa-chart-line"></i></span>
-              <span>Accumulated Load</span>
             </a>
           </li>
           <li data-tab="eda-tab">
@@ -363,13 +350,25 @@
               <span>EDA & Arousal</span>
             </a>
           </li>
+          <li data-tab="slope-tab">
+            <a>
+              <span class="icon is-small"><i class="fas fa-chart-line"></i></span>
+              <span>Accumulated Load</span>
+            </a>
+          </li>
+          <li data-tab="stress-tab">
+            <a>
+              <span class="icon is-small"><i class="fas fa-chart-bar"></i></span>
+              <span>Stress & Context</span>
+            </a>
+          </li>
         </ul>
       </div>
 
       <!-- Tab Content Panels -->
       
       <!-- Panel 1: Stress & Context Correlation -->
-      <div class="tab-content" id="stress-tab">
+      <div class="tab-content is-hidden" id="stress-tab">
         <div class="card panel-card">
           <div class="card-content">
             <div class="columns is-desktop is-vcentered">
@@ -402,7 +401,7 @@
       </div>
 
       <!-- Panel 2: Heart Rate Analysis -->
-      <div class="tab-content is-hidden" id="heart-tab">
+      <div class="tab-content" id="heart-tab">
         <div class="card panel-card">
           <div class="card-content">
             <div class="columns is-desktop is-vcentered">
@@ -514,6 +513,12 @@
             <p>
               These findings lay the groundwork for developing next-generation active fatigue-detection technologies, informing fleet scheduling, and optimizing driver wellness interventions.
             </p>
+            <div class="notification is-info is-light technical-report-note">
+              <p>
+                <strong>Expanded technical report:</strong> A more elaborated report details the broader study design, naturalistic driving context, wearable-data processing, and additional interpretation of the driver stress findings. This report can be found here:
+                <a href="https://hdl.handle.net/10919/125068" target="_blank" rel="noopener">https://hdl.handle.net/10919/125068</a>.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -526,13 +531,20 @@
       <div class="card bibtex-card">
         <div class="card-content">
           <h2 class="title is-4 mb-3">BibTeX Citation</h2>
-          <p class="is-size-6 mb-4 text-muted">If you find this work or dataset insights helpful in your research, please cite our IEEE IV paper:</p>
+          <p class="is-size-6 mb-4 text-muted">If you find this work or dataset insights helpful in your research, please cite our IEEE IV paper and expanded technical report:</p>
           <div class="bibtex-wrapper">
             <pre><code>@inproceedings{thapa2026characterizing,
   title={Characterizing Stress and Fatigue in Long-Haul Truck Drivers through Wearable Sensing and Physiological Measures},
   author={Thapa, Surendrabikram and Sarkar, Abhijit},
   booktitle={IEEE Intelligent Vehicles Symposium (IV)},
   year={2026}
+}
+
+@techreport{thapa2025effectiveness,
+  title={Effectiveness of Wearable Devices to Study Driving Stress of Long-haul Truck Drivers in Naturalistic Driving Systems},
+  author={Thapa, Surendra Bikram and Sarkar, Abhijit},
+  institution={National Surface Transportation Safety Center for Excellence},
+  year={2025}
 }</code></pre>
           </div>
         </div>
